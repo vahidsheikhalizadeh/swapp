@@ -1,0 +1,6 @@
+{
+  "name": "template java spring",
+  "description": "create a deploy button on Heroku",
+  "repository": "https://github.com/vahidsheikhalizadeh/my-template",
+  "keywords": ["java", "heroku", "spring"]
+}
