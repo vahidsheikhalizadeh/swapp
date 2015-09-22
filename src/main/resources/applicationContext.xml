@@ -95,8 +95,8 @@
 					<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
 					<prop key="hibernate.show_sql">true</prop>
 					<!-- change this to 'verify' before running as a production app -->
-					<!-- prop key="hibernate.hbm2ddl.auto">validate</prop -->
-					<prop key="hibernate.generate_ddl">false</prop>
+					<prop key="hibernate.hbm2ddl.auto">update</prop>
+					<prop key="hibernate.generate_ddl">true</prop>
 					<prop key="hibernate.temp.use_jdbc_metadata_defaults">false</prop>
 				</props>
 			</property>
