@@ -67,8 +67,6 @@
 
 <body onload="prettyPrint();">
 
-<p><a href="https://www.heroku.com/deploy/?template=https://github.com/logiclinegmbh/swapp"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy"></a></p>
-
 <div class="container" id="getting-started">
 <div class="row">
 <div class="span8 offset2">
