@@ -67,7 +67,7 @@
 
 <body onload="prettyPrint();">
 
-<p><a href="https://www.heroku.com/deploy/?template=https://github.com/vahidsheikhalizadeh/my-template"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy"></a></p>
+<p><a href="https://www.heroku.com/deploy/?template=https://github.com/logiclinegmbh/swapp"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy"></a></p>
 
 <div class="container" id="getting-started">
 <div class="row">
