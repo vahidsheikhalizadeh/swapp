@@ -1,61 +1,224 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="shortcut icon" href="assets/ico/favicon.ico"> -->
 
+    <title>SWAPP</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:600,300italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+</head>
 
-    <title>Swapp by logiclinegmbh</title>
-  </head>
+<body>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Swapp</h1>
-        <h2>Heroku button template for a simple web app</h2>
-        <a href="https://github.com/logiclinegmbh/swapp" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Swapp</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Walkthrough</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Setup</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a
+                        href="https://github.com/logiclinegmbh/swapp"><img
+                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
+                    GitHub
+                    Project</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row" style="text-align: left">
+			<div class="col-lg-3">
+            	<img src="images/app-logo.png" style="border:none;margin-top:30px;" class="img-responsive"/>
+			</div>
+			<div class="col-lg-9 hidden-sm hidden-md hidden-xs">
+            	<h1 style="margin-left: -8px; color:white;">SWAPP</h1>
+				<h2 style="color:white;">Architectural pattern for a web app using Java, Spring, Hibernate on Heroku</h2>
+			</div>
+        </div>
+    </div>
+</div>
 
-<p>Swapp is a simple web application that can be used as a starting point to create your own Heroku app. This deployment package uses standard enterprise technologies like Java, Spring, Hibernate and connect these with a state of the art cloud based managed platform. This architectural pattern can be used to demonstrate the strenght of Heroku working toegether with established enterprise technologies.</p>
+<div style="background-color: #f4f4f4;margin-top: -30px;border-bottom: solid 1px #ddd;padding:12px 0 6px 0;margin-bottom:30px;">
+    <div class="container">
+        <div class="row" style="text-align: center">
+            <div style="margin-left: 30px;">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large"
+                   data-url="https://github.com/logiclinegmbh/swapp"
+                   data-text="SWAPP - Architectural pattern for a web app using Java, Spring, Hibernate on #Heroku @logiclinegmbh">Tweet</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + '://platform.twitter.com/widgets.js';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, 'script', 'twitter-wjs');</script>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>You can deploy your own version of Swapp on Heroku in seconds using the given Heroku button:</p>
 
-<p><a target="_blank" href="https://heroku.com/deploy?template=https://github.com/logiclinegmbh/swapp">
-                                <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy Button"></a></p>
-        </section>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>SWAPP - Architectural pattern for a web app using Java, Spring, Hibernate on Heroku</h2>
+            <p>Swapp is an example for a simple web application that can be used as a starting point to create your own <a href="http://www.heroku.com">Heroku</a> app. This deployment package uses standard enterprise technologies like Java, Spring, Hibernate and connects these with a state of the art cloud based managed platform. This architectural pattern can be used to demonstrate the strenght of Heroku working together with established enterprise technologies.</p>
 
-        <aside id="sidebar">
-          <a href="https://github.com/logiclinegmbh/swapp/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/logiclinegmbh/swapp/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+            <p>You can deploy your own version of Swapp on Heroku in seconds using the Deploy to Heroku button below:</p>
 
-          <p class="repo-owner"><a href="https://github.com/logiclinegmbh/swapp"></a> is maintained by <a href="https://github.com/logiclinegmbh">logiclinegmbh</a>.</p>
+			<p><a href="https://heroku.com/deploy?template=https://github.com/logiclinegmbh/swapp"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy"></a></p>
 
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+			<p>Please see our <a href="https://github.com/logiclinegmbh/swapp">readme</a> file for more information on Swapp, including setup steps and architecture.
+		</div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>Here are some of the tools that we used to create Project:</p></div>
     </div>
 
-  
-  </body>
+    <div class="row" style="padding-top: 4px;">
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/platform-force-cloud.png"/>
+                <h3>Force.com</h3>
+            </div>
+            <p>Force.com is a set of tools and services that make it faster and easier to create employee-facing applications. We use Force.com for the employee-facing side of the application, including product, offer and user management. Employees can manage data in the browser or using the Salesforce1 mobile app.  </p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/platform-heroku-logo.png"/>
+                <h3>Heroku</h3>
+            </div>
+            <p>Heroku provides the platform-as-a-service to power a compelling customer experience. We use Heroku to host our web-facing components, run our application code, interface with the Force.com APIs, and expose services for our custom mobile application. Heroku Connect makes it easy to synchronize data with your Salesforce instance. We use Heroku to host the application, and Heroku Connect to synchronize Salesforce data.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/angularjs.png"/>
+                <h3>AngularJS</h3>
+            </div>
+            <p>AngularJS is a leading Model-View-Controller framework for building single page web applications. We use AngularJS to structure and modularize the code of the client application.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/bootstrap.png"/>
+                <h3>Bootstrap</h3>
+            </div>
+            <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. We’ve used Bootstrap for the core web application styling and a responsive layout.</p>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 4px;">
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/ionic.png"/>
+                <h3>Ionic</h3>
+            </div>
+            <p>Ionic is a UI framework that facilitates the development of Hybrid apps built with AngularJS by providing mobile components and gestures. We use Ionic as the foundation for the user interface of the client application.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/nodejs.png"/>
+                <h3>Node.js</h3>
+            </div>
+            <p>Node.js allows you to easily build fast and scalable server applications in JavaScript. The server-side is built on Node.js and exposes the application data and logic to the mobile app through a set of REST services.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/javascript-logo.png"/>
+                <h3>JavaScript</h3>
+            </div>
+            <p>JavaScript is powerful programming language with a vibrant and prolific open source community. Node.js powers the API, while ReactJS delivers rich experience to your customers.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/reactjs-logo.png"/>
+                <h3>ReactJS</h3>
+            </div>
+            <p>Front-end MV frameworks focused on rich interfaces across many devices. ReactJS is one of the latest and greatest. Here we implement a version of Flux architecture with Reflux.</p>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 4px;">
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/redis-logo.png"/>
+                <h3>Redis</h3>
+            </div>
+            <p>Redis is commonly used as a datastore for user sessions, to enable quicker access and avoid hitting the database. Heroku now offers Redis natively, so keeping your app speedy is easier than ever.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/java-logo.png"/>
+                <h3>Java EE</h3>
+            </div>
+            <p>Redis is commonly used as a datastore for user sessions, to enable quicker access and avoid hitting the database. Heroku now offers Redis natively, so keeping your app speedy is easier than ever.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/spring-logo.png"/>
+                <h3>Spring</h3>
+            </div>
+            <p>Redis is commonly used as a datastore for user sessions, to enable quicker access and avoid hitting the database. Heroku now offers Redis natively, so keeping your app speedy is easier than ever.</p>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-center">
+                <img height=100px; src="images/hibernate-logo.png"/>
+                <h3>Hibernate</h3>
+            </div>
+            <p>Redis is commonly used as a datastore for user sessions, to enable quicker access and avoid hitting the database. Heroku now offers Redis natively, so keeping your app speedy is easier than ever.</p>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="container">
+    
+</div>
+
+<div class="container" style="border-top: 1px solid #ccc;">
+    <div id="footer">
+        <p class="text-muted"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>  logicline GmbH, 2015, <a href="http://www.logicline.de">www.logicline.de</a></p>
+    </div>    <!-- Site footer -->
+</div>
+
+
+<script src="lib/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
