@@ -1,0 +1,18 @@
+{
+  "id": "myaddon",
+  "api": {
+    "config_vars": [ "MYADDON_URL" ],
+    "requires": [],
+    "regions": [ "us" ],
+    "password": "91ae4169153cfe3a2c45f16907e94a19",
+    "sso_salt": "f103625064b3a266e5b71cebb0e1223f",
+    "production": {
+      "base_url": "https://yourapp.com/heroku/resources",
+      "sso_url": "https://yourapp.com/sso/login"
+    },
+    "test": {
+      "base_url": "http://localhost:8080/spring-hibernate-template/",
+      "sso_url": "http://localhost:8080/"
+    }
+  }
+}
