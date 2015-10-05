@@ -1,0 +1,7 @@
+{
+  "name": "templsate addon",
+  "description": "create a test addon",
+  "repository": "https://github.com/vahidsheikhalizadeh/swapp.git",
+  "keywords": ["java", "heroku", "spring"],
+  "addons": ["heroku-postgresql:hobby-dev"]
+}
