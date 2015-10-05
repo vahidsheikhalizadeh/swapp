@@ -7,12 +7,13 @@
     "regions": [ "us","eu" ],
     "password": "fed10b8599db658d9b04430b08606419",
     "sso_salt": "68c0d304f11d995616edc1f01fbacb1c",
+    "test":"http://localhost:7048/spring-hibernate-template/",
     "production": {
       "base_url": "https://yourapp.com/heroku/resources",
       "sso_url": "https://yourapp.com/sso/login"
     },
     "test": {
-      "base_url": "http://localhost:7048/spring-hibernate-template/"
+      "base_url": "http://localhost:7048/spring-hibernate-template/heroku/resources"
     }
   }
 }
