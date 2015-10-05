@@ -1,7 +1,0 @@
-{
-  "name": "test-addon",
-  "description": "test addon on heroku",
-  "repository": "https://github.com/vahidsheikhalizadeh/swapp.git",
-  "keywords": ["java", "heroku", "spring"],
-  "addons": ["heroku-postgresql:hobby-dev"]
-}
